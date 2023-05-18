@@ -1,0 +1,44 @@
+#wheel {
+    max-height: 300px;
+}
+
+.input-section {
+    margin-top: 250px;
+    z-index: 999 !important;
+    margin-left: -350px;
+}
+
+#canvas {
+    max-height: 700px;
+}
+
+.spin-container {
+    position: relative;
+    z-index: 9 !important;
+}
+
+.upper-wrapper {
+    position: absolute;
+    height: 700px;
+    width: 100%;
+}
+
+.txt-number {
+    height: 45px;
+    border-radius: 6px;
+    color: white;
+    background-color: black;
+    margin-left: 10px;
+    filter: drop-shadow(5px 5px 22px #165898);
+    border: 1px solid grey;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
